@@ -23,4 +23,4 @@ test_cases = [
 # Run tests
 for i, (prices, expected) in enumerate(test_cases):
     result = maxProfit(prices)
-    print(f"Test case {i+1}: {'✅ Passed' if result == expected else f'❌ Failed (Expected {expected}, Got {result})'}")
+    print(f"Test case {i+1}: {'✅ Passed' if result == expected else f'Failed (Expected {expected}, Got {result})'}")
