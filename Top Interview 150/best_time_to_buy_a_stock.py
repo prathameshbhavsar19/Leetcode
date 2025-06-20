@@ -10,17 +10,20 @@ def maxProfit(prices):
             
     return max_profit
 
-# Test cases
+# Test cases: list of (input, expected_output)
 test_cases = [
     ([7, 1, 5, 3, 6, 4], 5),
     ([7, 6, 4, 3, 1], 0),
     ([1, 2, 3, 4, 5], 4),
     ([2, 4, 1], 2),
     ([3, 3, 5, 0, 0, 3, 1, 4], 4),
-    ([1], 0),  # Only one price
+    ([1], 0)
 ]
 
-# Run tests
+# Run the test cases
 for i, (prices, expected) in enumerate(test_cases):
     result = maxProfit(prices)
-    print(f"Test case {i+1}: {'✅ Passed' if result == expected else f'Failed (Expected {expected}, Got {result})'}")
+    if result == expected:
+        print(f"Test case {i+1}: ✅ Passed")
+    else:
+        print(f"Test case {i+1}: ❌ Failed (Expected {expected}, Got {result})")
