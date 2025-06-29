@@ -15,7 +15,7 @@ def merge_array(nums1, nums2, m, n):
         p2 = p2 - 1
         p = p - 1
 
-nums1 = [1,2,3,4,0,0]
+nums1 = [1,2,3,4,0,0,0]
 nums2 = [2,5,6,7]
 m = 3
 n = 3
