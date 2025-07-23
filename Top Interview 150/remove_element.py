@@ -7,7 +7,7 @@ def removeElement(nums, val):
         i = i + 1
     return k
 
-nums = [1, 0, 0, 0, 2, 5, 6, 7, 8]
+nums = [1, 0, 0, 0, 2, 5, 6, 7]
 val = 0
 
 size = removeElement(nums, val)
